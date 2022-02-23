@@ -395,12 +395,20 @@ body .active {
   padding: 30px;
   display: none;
   max-width: 1000px;
-  max-height: 1300px;
   background-color: white;
   position: relative;
   border-radius: 20px;
 }
 .back {
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2em;
+  border-bottom: 1px solid grey;
+  right:50px;
+  top:20px;
+}
+.back2 {
   font-family: "Rubik", sans-serif;
   cursor: pointer;
   position: absolute;
@@ -463,4 +471,39 @@ body .active {
   line-height: 1.8em;
   font-size: 1em;
   text-align: left;
+}
+.pages{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pages-btn{
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  color: #FE0058;
+  border: 1px solid #FE0058;
+  font-size: 17px;
+}
+.pages-btn:hover{
+  box-shadow: 0 0 5px #fe0058;
+}
+.project2 {
+  width: 100%;
+  padding: 30px;
+  display: none;
+  max-width: 1000px;
+  background-color: white;
+  position: relative;
+  border-radius: 20px;
+}
+.pages-btn2{
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  color: #FE0058;
+  border: 1px solid #FE0058;
+  font-size: 17px;
+}
+.pages-btn2:hover{
+  box-shadow: 0 0 5px #fe0058;
 }
