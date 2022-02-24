@@ -247,6 +247,7 @@ body .active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
 }
 
 .container .right-side_about .about_box .about-box_company {
@@ -506,4 +507,8 @@ body .active {
 }
 .pages-btn2:hover{
   box-shadow: 0 0 5px #fe0058;
+}
+.company_date{
+  color:#4b0082;
+  font-family: "Rubik", sans-serif;
 }
